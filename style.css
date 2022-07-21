@@ -149,24 +149,21 @@ height: 100%;
     
           width: 100%;
       }
-      .first-section{grid-template-columns: repeat(1, 1fr);}
+      .first-section {
           
-      
-       
-    }
-      
-      
-      @media only screen and (min-width:688px) and (max-width:992px){
-          .continar{
-    
-              width: 100%;
-          }
-          .players, .blogs, .courses{
-              
-              grid-template-columns: repeat(2, 1fr);
-          }
-          .player, .blog, .course{
-              flex-direction: column;
-          }
-           
-          }
+          grid-template-columns: repeat(1, 1fr);
+      }
+      .first-info, .first-thamnel {
+          flex-direction: column;
+      }
+      .players{
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .player-pic, .players-pic{
+        flex-direction: column;
+      }
+      .footer-items, .items-link{
+        flex-direction: column;
+      }
+      }

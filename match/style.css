@@ -151,36 +151,32 @@
       margin: 15px;
       border-radius: 10px;
      }
+     .items-link i{
+      margin: 80px 100px 0 0;
+      font-size: 30px;
+      color: rgb(186, 107, 107);
+     }
      @media only screen and (max-width:688px){
       .continar{
     
           width: 100%;
       }
-      .first-section, .blogs, .courses{
+      .first-section {
           
           grid-template-columns: repeat(1, 1fr);
       }
       .first-info, .first-thamnel {
           flex-direction: column;
       }
-      .button{
-        justify-content: center;
-        
+      .players{
+        grid-template-columns: repeat(1, 1fr);
       }
+
+      .flag, .name{
+        flex-direction: column;
+      }
+      
        
       }
       
-      @media only screen and (min-width:688px) and (max-width:992px){
-          .continar{
-    
-              width: 100%;
-          }
-          .players, .blogs, .courses{
-              
-              grid-template-columns: repeat(2, 1fr);
-          }
-          .player, .blog, .course{
-              flex-direction: column;
-          }
-           
-          }
+       
